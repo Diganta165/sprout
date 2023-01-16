@@ -1,0 +1,22 @@
+.header_section{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: 30px;
+    border: 1px solid red;
+}
+
+.header_business_logo_wrapper img{
+    width: 100%;
+    height: -webkit-fill-available;
+}
+
+.breadcrumb{
+    display: flex;
+    flex-direction: column;
+}
+.line_1, .line_2, .line_3{
+    /* border: 1px solid #000; */
+    width: 5px;
+    height: 1px;
+}

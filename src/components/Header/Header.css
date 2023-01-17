@@ -1,8 +1,8 @@
 .header_section{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: auto;
-    height: 30px;
+    height: 40px;
     border: 1px solid red;
 }
 
@@ -14,9 +14,14 @@
 .breadcrumb{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.line_1, .line_2, .line_3{
-    /* border: 1px solid #000; */
+/* .line_1, .line_2, .line_3{
     width: 5px;
     height: 1px;
-}
+} */
+/* .hamburger_icon{
+    display: flex;
+} */
+
